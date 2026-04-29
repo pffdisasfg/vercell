@@ -7,7 +7,7 @@ export const config = {
   maxDuration: 60,
 };
 
-const TARGET_BASE = (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
+const TARGET_BASE = (213.142.149.214:52197 || "").replace(/\/$/, "");
 
 const STRIP_HEADERS = new Set([
   "host",
